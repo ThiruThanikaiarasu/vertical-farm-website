@@ -51,9 +51,105 @@ nav ul li button
 {
     display: flex;
     align-items: center;
+    margin-left: 20px;
 }
 
-.account-button
+.test li{
+    padding: 0 5px ;
+}
+
+.nav-account-button
 {
     background-color: #efff30ff;
+}
+
+main{
+    /* background-color: aqua; */
+    width: 47%;
+    margin:0 75px;
+    padding: 20px;
+}
+
+main h1{
+    font-size: 55px;
+}
+
+#leaf-icon{
+    color: aquamarine;
+}
+
+.main-heading-highlight{
+    background-color: #efff30ff;
+    color: #000000;
+}
+
+main h1 span{
+    font-family: 'Tilt Neon', cursive;
+    font-size: 60px;
+}
+
+main ul li
+{
+    list-style: none;
+
+}
+
+main ul p{
+    margin: 45px 0px;
+}
+
+.main-footer{
+    display: flex;
+    align-items: center;
+}
+
+.main-footer li
+{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.main-footer li button
+{
+    padding: 10px 17px;
+    font-size:15px;
+    /* font-weight: bold; */
+    border-radius: 50px;
+    background-color: black;
+    border: 1px solid #fff;
+    color: white;
+}
+
+.main-startNow-button
+{
+    color: #000000;
+    background-color: #efff30ff;
+}
+
+main ul li img{
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    margin-left: 35px;
+    border: 0.5px solid #fff;
+    /* background-color: #fff; */
+}
+
+.main-footer-img1
+{
+    position: relative;
+    left: 70px;
+    z-index: -1;
+}
+
+.main-footer-img2
+{
+
+}
+
+.main-footer-img3 
+{
+    position: relative;
+    left: -70px;
+    z-index: 1; */
 }
