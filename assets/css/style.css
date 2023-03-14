@@ -8,6 +8,7 @@
 body{
     background-color: #000000;
     color: #fff;
+    
 }
 
 nav
@@ -65,8 +66,9 @@ nav ul li button
 
 main{
     /* background-color: aqua; */
+    float: left;
     width: 47%;
-    margin:0 75px;
+    margin:0 55px;
     padding: 20px;
 }
 
@@ -142,14 +144,59 @@ main ul li img{
     z-index: -1;
 }
 
-.main-footer-img2
+/* .main-footer-img2
 {
 
-}
+} */
 
 .main-footer-img3 
 {
     position: relative;
     left: -70px;
-    z-index: 1; */
+    z-index: 1; 
+}
+
+aside
+{
+    float: right;
+    width: 36%;
+    margin: 0px 47px;
+    /* background-color:antiquewhite; */
+}
+
+aside ul
+{
+    /* background-color: red; */
+    list-style: none;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.aside-first-row
+{
+    justify-content: space-between;
+}
+
+aside ul li img
+{
+    width: 55%;
+    /* flex: inline-block; */
+}
+
+.aside-image-icons li img
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    object-fit:cover;
+}
+
+.aside-image-icons li label
+{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 100px;
+    padding: 20px 20px;
+    background-color: aqua;
 }
