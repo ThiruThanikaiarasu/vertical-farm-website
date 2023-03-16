@@ -227,7 +227,7 @@ section
 section div
 {
     margin: 0 5px;
-    height: 100px;
+    height: 90px;
     border-radius: 10px;
     
     display: flex;
@@ -264,7 +264,7 @@ section div ul li
 
 .ChooseCrop
 {
-    width: 490px;
+    width: 460px;
     background-color: rgb(233,255,178);
     color: black;
 }
@@ -278,10 +278,40 @@ section div ul li
 
 .MonitorCrops
 {
-    width: 390px;
+    width: 350px;
     background-color: rgb(255,255,255);
     color: black;
 }
+
+.section-decoration-left
+{
+   /* background-color: white;
+   padding: 7px;
+   border-radius: 20px;
+   border: 1px solid white; */
+}
+
+.section-decoration-left i{
+    position: relative;
+    font-size: 28px;
+    color:black;
+    background-color: white;
+    border-radius: 52px;
+    right: 833px;
+    /* bottom: 0px; */
+    
+}
+
+.section-decoration-right i
+{
+    position: relative;
+    font-size: 28px;
+    color:black;
+    background-color: white;
+    border-radius: 52px;
+    right: 402px;
+}
+
 
 footer
 {
