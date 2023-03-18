@@ -172,15 +172,15 @@ main ul li img{
 aside
 {
     float: right;
-    width: 36%;
+    width: 30%;
     margin: 0px 50px;
+    margin-right: 150px;
     height: 500px;
     /* background-color:antiquewhite; */
 }
 
 aside ul
 {
-    /* background-color: red; */
     list-style: none;
     display: flex;
     /* justify-content: space-between; */
@@ -191,28 +191,120 @@ aside ul
     justify-content: space-between;
 }
 
+.aside-first-row li
+{
+    margin-top: 40px;
+}
+
+.aside-first-row li h3
+{
+    width: 85px;
+}
+
+.aside-first-row li i
+{
+    position: relative;
+    font-size: 28px;
+    color:black;
+    background-color: white;
+    border-radius: 50%;
+    left: 130px;
+    top:-10%;
+}
+
+.aside-first-row li img
+{
+    margin-bottom: 0px;
+    width: 100px;
+    height: 100px;
+    /* margin-top: 40px; */
+}
+
 aside ul li img
 {
-    width: 55%;
+    width: 335px;
+    border-radius: 5px;
     /* flex: inline-block; */
+}
+
+.VerticalFarmingIcon
+{
+    margin: 0;
+    width: 50px;
+    margin-right:10px;
+}
+
+.AsideCompanyName{
+    font-family: 'Tilt Neon', cursive;
+    margin: 32px 25px;
 }
 
 .aside-image-icons li img
 {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 50px;
     object-fit:cover;
+    border: 2px solid gray;
+}
+
+.AsideImageIcon1
+{
+    position:relative;
+    top:-50%;
+    left: -100%;
+}
+
+.AsideImageIcon2
+{
+    position:relative;
+    top:-50%;
+    left: -120%;
+    z-index: 1;
 }
 
 .aside-image-icons li label
 {
-    height: 100px;
-    width: 100px;
+    height: 40px;
+    width: 40px;
     text-align: center;
-    border-radius: 100px;
-    padding: 20px 20px;
-    background-color: aqua;
+    font-size: small;
+    border-radius: 50px;
+    padding: 10px 15px;
+    background: black;
+    border: 2px solid gray;
+    position: relative;
+    top: -25%;
+    left: -90%;
+    /* z-index: ; */
+}
+
+.AsideNumberIcon
+{
+    
+}
+
+.aside-image-icons li i
+{
+    background-color: rgb(226,254,100);
+    color: black;
+    border-radius: 50px;
+    padding: 12px;
+    position: relative;
+    top: -50%;
+    left: -120%;
+    transform: rotate(-45deg);
+}
+
+.AsideTechIcon
+{
+    background: white !important;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top: -200%;
+
 }
 
 section
