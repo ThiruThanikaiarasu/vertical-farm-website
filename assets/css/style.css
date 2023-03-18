@@ -68,6 +68,11 @@ nav ul li button
     
 }
 
+.nav-buttons
+{
+    margin-right: 1.5%;
+}
+
 fieldset
 {
     border: 0;
